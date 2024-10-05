@@ -17,5 +17,5 @@ public class Produtor {
     private String nome;
 
     @ManyToMany(mappedBy = "Produtor")
-    private List<Filme> filmesProduzidos;
+    private List<Filme> filmes;
 }
